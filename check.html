@@ -1,0 +1,59 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/checkstyle.css">
+
+<script>
+$(function() {
+  var box = $('.checkmark');
+  var button = $('.button1');
+  button.on('click', function(){
+    box.toggleClass('active');
+    if(box.hasClass('active'))
+      button.text('Make this smaller!');
+    else
+      button.text('Make this bigger!');
+  });
+});
+</script>
+
+</head>
+
+<div class="button1" style="background: #999; border-radius: 10px; width: 300px; height: 55px;">
+	<div style="float: right; padding: 10px; margin-right: 20px; margin-top: 5px;">
+		<div class="checkmark"></div>
+	</div>
+</div>
+
+<br>
+
+<div style="background: #999; border-radius: 10px; width: 300px; height: 55px;">
+	<div style="float: right; padding: 10px; margin-right: 20px; margin-top: 5px;">
+		<div class="checkmark"></div>
+	</div>
+</div>
+
+<br>
+
+<div style="background: #999; border-radius: 10px; width: 300px; height: 55px;">
+	<div style="float: right; padding: 10px; margin-right: 20px; margin-top: 5px;">
+		<div class="checkmark"></div>
+	</div>
+</div>
+
+<br>
+
+<div style="background: #999; border-radius: 10px; width: 300px; height: 55px;">
+	<div style="float: right; padding: 10px; margin-right: 20px; margin-top: 5px;">
+		<div class="checkmark"></div>
+	</div>
+</div>
+
+<br>
+
+<div style="background: #999; border-radius: 10px; width: 300px; height: 55px;">
+	<div style="float: right; padding: 10px; margin-right: 20px; margin-top: 5px;">
+		<div class="checkmark"></div>
+	</div>
+</div>
+
+</html>

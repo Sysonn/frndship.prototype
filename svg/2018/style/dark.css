@@ -1,0 +1,156 @@
+body{
+    /* background: -webkit-radial-gradient(10% 30%, white, rgb(197, 197, 197)); */
+   background-color: black;
+    height: 1000px;
+    padding: 35px;
+    padding-top: 1px;
+    margin: 0px;
+    /* opacity: 30%; */
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.headerLogo{
+    margin-left: 30px;
+    margin-top: -30px;
+    /* font-family: 'Knewave', cursive; */
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2em;
+    color:white;
+}
+
+.nav{
+    width: 100%;
+    margin: auto 0;
+    max-height: 2000px;
+    height: 80px;
+    overflow: hidden; 
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+
+}
+
+.title{
+margin-top: 15px;   
+margin-left: 10px;
+font-size: 1.5em;
+}
+
+.navButtons{
+  
+    width: 400px;
+    margin: 0 auto;
+    display: block;
+    /* display: table; */
+    /* border-spacing: 10px;  */
+    /* background-color: black; */
+    height: auto;
+    margin-top: -40px;
+    position: relative;
+}
+
+img{
+    fill: black;
+}
+
+.navButton{
+    /* display: table-cell; */
+    margin-right: 20px;
+    float: left;
+    fill: black;
+}
+
+.navButton:hover{
+    transform: scale(1.1); 
+}
+
+
+.divContentWrap{
+    width: 100%;
+    margin: auto 0;
+    max-height: 2000px;
+    height: 800px;
+    /* overflow: auto; */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+
+}
+
+.divLeftContent{
+    /* max-width: 100%; */
+    margin-left: 20px !important;
+    /* margin-right: 20px !important; */
+    /* margin: auto 0; */
+    float: left;
+    min-width: 65%;
+    height: 600px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+   
+}
+
+.divRightContent{
+    /* max-width: 100%; */
+    
+    /* margin-left: 20px !important; */
+    margin-right: 20px !important;
+    float: right;
+    /* margin: auto 0; */
+    width: auto;
+    min-width: 200px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    overflow-y: scroll;
+   
+}
+
+
+.divRightChatBox{
+    /* max-width: 100%; */
+    margin: 0 auto;
+    width: auto;
+    height: 25px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-bottom: 10px;
+   
+}
+
+
+.div2{
+    margin: auto 0;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+#chatBox{
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    z-index: 9;
+    border-radius: 15px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 10px 10px 6px -6px #777;
+}
+
+#chatBoxHeader{
+    background-color: black;
+    height: 30px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    cursor: grab;
+    z-index: 10;
+    padding: 10px;
+}

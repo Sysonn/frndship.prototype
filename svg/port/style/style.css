@@ -1,0 +1,32 @@
+body{
+    background: -webkit-radial-gradient(10% 30%, white, rgb(197, 197, 197));
+    height: 1000px;
+    padding: 35px;
+    margin: 0px;
+}
+
+.headerLogo{
+    margin-left: 30px;
+    margin-top: -30px;
+    /* font-family: 'Knewave', cursive; */
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.2em;
+    color: rgb(163, 163, 163);
+}
+
+.svg1{
+    width: 100%;
+    margin: auto 0;
+    max-height: 2000px;
+    overflow: auto;
+    border-radius: 15px;
+}
+
+#img1{
+    margin: auto 0;
+    text-align: center;
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+

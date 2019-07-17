@@ -1,0 +1,285 @@
+html{
+cursor: url('media/cursor1.cur');
+}
+body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	}
+
+
+#LoginButtons{
+
+	font-family: "Arial Black", Arial, sans-serif;
+	font-size:16px;
+	text-align: center;
+	line-height:1.43em;
+	letter-spacing: -1.5px;
+	color: #ED4A4A;
+	height: 28px;
+	width: 100px;
+	padding-bottom: 5px;
+	padding-top: 4px;
+
+	border-radius: 15px;
+	background-color: #FFF;
+	box-sizing: border-box;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	}
+	#LoginButtons:hover{
+	background: #ff8d8d;
+	color: #fff;
+	}
+
+#MobileFix{
+	margin-top: 40px;
+	width: 100%;
+    display: inline-block;
+    position: fixed;
+
+}
+
+#SmartScreen {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	/* margin: 0px 190px 20px 190px; /* n6.01win n6mac won't recognize top margin for middle box, so it goes in body */
+	position: absolute;
+	padding: 0px;
+	/*background: rgba(102,102,102, 1);*/
+
+
+
+
+}
+
+#LoginSmartScreen {
+	height: 100%;
+	width: 100%;
+	/* margin: 0px 190px 20px 190px; /* n6.01win n6mac won't recognize top margin for middle box, so it goes in body */
+	position: absolute;
+	padding: 0px;
+	/*background: rgba(102,102,102, 1);*/
+	background: rgba(255,255,255, 1);
+	box-sizing: border-box;
+
+}
+
+/*-----------------------------------------------------*/
+	#SSTopBar {
+		height: 40px;
+		width: 100%;
+		background: rgba(237,74,74, 1);
+		top: 0;
+		position: absolute;
+	}
+
+	#TopBarTitle{
+	height: 0px;
+	position: relative;
+	text-align: center;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	font-weight: 900;
+	letter-spacing: -1.5px;
+	font-size: 	1.5em; /*18px*/
+	padding-top: 10px;
+
+	}
+
+		#TopSettings{
+		height: 35px;
+		width: 30px;
+		margin-right: 10px;
+		margin-top: -5px;
+		/*position: relative;*/
+		float:right;
+		background:url("../media/settings.png");
+		background-size: 35px;
+		}
+
+		#TopSettings:hover{
+			height: 35px;
+			width: 30px;
+			margin-right: 10px;
+			margin-top: -5px;
+			/*position: relative;*/
+			float:right;
+		background:url("../media/settings_select.png");
+		background-size: 35px;
+		}
+
+	#ContentMain{
+	position: absolute;
+	width: 100%;
+	bottom: 40px;
+	top: 40px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+
+	/*font-family: arial;
+	font-size: 14px;*/
+
+	}
+
+	#LoginMain{
+	height: 100%;
+	width: 100%;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	/*font-family: arial;
+	font-size: 14px;*/
+
+	}
+
+	#SSBottomBar {
+		height: 40px;
+		width: 100%;
+		background: rgba(255,255,255, 1);
+		bottom: 0;
+		position: absolute;
+
+	}
+/*===========================================*/
+
+		.BBItem{
+		/*position: absolute;*/
+		background: rgba(237,74,74, 1);
+		height: 40px;
+		width: 20%;
+		float: left;
+
+		}
+
+
+		.BBItem:hover{
+		background: rgba(208,20,20, 1);
+		}
+
+
+
+/*===========================================*/
+		.BBImage{
+
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+
+
+
+/*-----------------------------------------------------*/
+
+#SmartScreenBorder {
+	/*
+	height: 480px;
+	width: 290px;
+	*/
+	width: 100%;
+	height: 100%;
+	position: relative;
+	padding: 0px;
+}
+
+#HeaderMain {
+	position: center;
+	padding: 0px;
+	text-align: center;
+	margin-left: auto ;
+	margin-right: auto ;
+	margin-top: 2% ;
+
+}
+
+/*-----------------------------------------------------*/
+/*Scroll Box*/
+/*-----------------------------------------------------*/
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+width: 10px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f5f5f5;
+border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+border-radius: 10px;
+background: #ff8d8d;
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #ED4A4A;
+}
+
+/*-----------------------------------------------------*/
+/*-----------------------------------------------------*/
+
+.iframe-container {
+    overflow:scroll !important; -webkit-overflow-scrolling:touch !important;
+}
+
+
+/*-----------------------------------------------------*/
+
+
+/*-----------------------------------------------------*/
+/* Frnds Page */
+/*-----------------------------------------------------*/
+
+.FrndBox{
+height: auto;
+width: 90%;
+max-width: 800px;
+min-height: 100px;
+max-height: 200px;
+overflow: hidden;
+box-sizing: border-box;
+margin-bottom: 15px;
+border-radius: 5px;
+background-color: #FFF;
+font-size: 14px;
+padding: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+font-family: arial;
+}
+
+/*-----------------------------------------------------*/
+::-webkit-input-placeholder { /* Chrome */
+  color: #E0E0E0;
+}
+
+
+/*---CHAT--------------------------------------------------*/
+
+#chatSent{
+
+	font-family: Arial, sans-serif;
+	font-size:12px;
+	text-align: center;
+	line-height:1.43em;
+	letter-spacing: -1.5px;
+	color: #fff;
+	height: 28px;
+	width: 40%;
+	padding-bottom: 5px;
+	padding-top: 4px;
+	margin-left: 30%;
+	border-radius: 15px;
+	background-color: #ED4A4A;
+	box-sizing: border-box;
+
+	}
+
+/*-----------------------------------------------------*/

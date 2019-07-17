@@ -1,0 +1,57 @@
+body{margin-top:50px;background: #E0E0E0; }
+
+	.menuBar{
+    width:100%;
+    height:40px;
+    display:block;
+    position:absolute;
+    margin-top:0px;
+    left:0;
+	background-color: #ff8d8d;
+	padding: 4px;
+	display: block;
+	z-index: 5;
+
+    }
+
+		.chatBar{
+			width:100%;
+			height: 60px;
+			display:block;
+			position:fixed;
+			margin-bottom:5px;
+			left:0;
+			background-color: #ff8d8d;
+			padding: 4px;
+
+			}
+
+
+	.CatBox{
+	font-family: Arial, sans-serif;
+	font-size:1.8em;
+	line-height:1.43em;
+	letter-spacing: -1.5px;
+	font-weight: 900;
+	color: #ED4A4A;
+	height: 40px;
+	width: 90%;
+	padding: 5px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #FFF;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: -1;
+	}
+
+	.CatBox:hover{
+	background: #ED4A4A;
+	color: #fff;
+	}
+
+	#LoginPage{
+	margin-left: 100px;
+	width: 20px;
+	}

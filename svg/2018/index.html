@@ -1,0 +1,220 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta name="theme-color" content="grey"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="favicon.ico">
+<link id="pagestyle" rel="stylesheet" href="style/style.css">
+
+<!--Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+<!---->
+
+<title>Frndship - Home</title>
+</head>
+
+<body>
+
+<div class="nav">
+    <div class="title"><img src="img/logo1.svg" width="150px"></div>
+
+    <div class="navButtons">
+        <div class="navButton"><img class="navButton" src="img/ship.svg" width="40px"></div>
+        <div class="navButton"><img class="navButton" src="img/flag.svg" width="40px"></div>
+        <div class="navButton"><img class="navButton" src="img/sail.svg" width="40px"></div>
+        <div class="navButton"><img class="navButton" src="img/frnds.svg" width="40px"></div>
+        <div class="navButton"><img class="navButton" src="img/user.svg" width="40px"></div>
+    
+
+    </div>
+
+        <!-- <div style="float: right;">
+                <button id="stylesheet1" > Default Style Sheet </button>
+                <button id="stylesheet2" > Dark Style Sheet </button>
+        </div> -->
+
+</div>
+<br>
+
+<script>
+    function swapStyleSheet(sheet) {
+    document.getElementById("pagestyle").setAttribute("href", sheet);  
+}
+var style1 = document.getElementById("stylesheet1");
+var style2 = document.getElementById("stylesheet2");
+style1.onclick = function () { swapStyleSheet("style/style.css") };
+style2.onclick = function () { swapStyleSheet("style/dark.css"); };
+
+</script>
+
+<div id="chatBox">
+    <div id="chatBoxHeader" style="color: white; font-size: 20px;">
+            Name
+        <div id="chatClose" style="float: right; font-size: 20px; color: white; cursor: pointer;">x</div>
+    </div>
+
+    <div id="chatContent">
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+        <div style="float:right;">Test</div>
+        <br>
+        <div style="float:left;">Test</div>
+        <br>
+
+    </div>
+        <form><input style="width: 200px;"><input type="submit" value="Submit"></form>
+</div>
+    
+<script>
+var chat = document.getElementById("chatBox");
+var chatclose = document.getElementById("chatClose");
+chatclose.onclick = function() { 
+    chat.style.display = "none";
+}
+</script>
+
+<div class="divContentWrap">
+    <div class="divLeftContent">
+    Test Test
+    </div>
+
+    <div class="divRightContent">
+        <div class="divRightChatBox" id="loadChat" onclick="loadChat();"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+        <div class="divRightChatBox" id="loadChat"> Name </div>
+    </div>
+    
+   
+    
+</div>
+<br>
+
+<script>
+        var chatname = document.getElementById("loadChat");
+        var chat = document.getElementById("chatBox");
+        chatname.onclick = function() { 
+            chat.style.display = "block";
+        }
+        </script>
+
+
+<script>
+
+//Make the DIV element draggagle:
+dragElement(document.getElementById(("chatBox")));
+
+function dragElement(elmnt) {
+  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+  if (document.getElementById(elmnt.id + "header")) {
+    /* if present, the header is where you move the DIV from:*/
+    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+  } else {
+    /* otherwise, move the DIV from anywhere inside the DIV:*/
+    elmnt.onmousedown = dragMouseDown;
+  }
+
+  function dragMouseDown(e) {
+    e = e || window.event;
+    // get the mouse cursor position at startup:
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    document.onmouseup = closeDragElement;
+    // call a function whenever the cursor moves:
+    document.onmousemove = elementDrag;
+  }
+
+  function elementDrag(e) {
+    e = e || window.event;
+    // calculate the new cursor position:
+    pos1 = pos3 - e.clientX;
+    pos2 = pos4 - e.clientY;
+    pos3 = e.clientX;
+    pos4 = e.clientY;
+    // set the element's new position:
+    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+  }
+
+  function closeDragElement() {
+    /* stop moving when mouse button is released:*/
+    document.onmouseup = null;
+    document.onmousemove = null;
+  }
+}
+
+</script>
+
+
+</body>
+
+</html>

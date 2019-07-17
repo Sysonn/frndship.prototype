@@ -1,0 +1,26 @@
+body{
+		width: 100%;
+		background: #E0E0E0;
+
+		}
+
+.ContentBoxDefaultBorder{
+height: auto;
+width: 90%;
+max-width: 800px;
+min-height: 80px;
+max-height: 200px;
+overflow: hidden;
+box-sizing: border-box;
+margin-bottom: 10px;
+/*border-radius: 15px 45px 30px;*/
+border-radius: 5px;
+border-color: #ED4A4A;
+border-width: 10px;
+background-color: #FFF;
+font-size: 24px;
+padding: 10px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
